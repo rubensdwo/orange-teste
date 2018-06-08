@@ -1,0 +1,29 @@
+* {
+  height: 100%;
+}
+
+.orange-container, .orange-nav, .orange-header {
+    position: relative;
+    float: left;
+    padding: 5px;
+}
+
+.orange-nav {
+  width: 4.16%;
+  height: 100%;
+  background-color: blue;
+}
+
+.orange-header {
+  width: 95.83%;
+  height: 20%;
+}
+
+.orange-container {
+  width: 95.83%;
+  height: 80%;
+}
+
+.orange-container div, .orange-nav div, .orange-header div {
+    height: auto;
+}
